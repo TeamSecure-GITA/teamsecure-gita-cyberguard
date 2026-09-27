@@ -1,0 +1,14 @@
+{
+  "name": "cyberguard-ai",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix cyberguard-frontend run dev",
+    "build": "npm --prefix cyberguard-frontend run build",
+    "start": "npm --prefix cyberguard-frontend run dev",
+    "backend": "python main.py"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3"
+  }
+}
